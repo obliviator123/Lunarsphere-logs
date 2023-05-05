@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>fr.naos</groupId>
-    <artifactId>MyLogs</artifactId>
+    <artifactId>Lunarsphere-logs</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
