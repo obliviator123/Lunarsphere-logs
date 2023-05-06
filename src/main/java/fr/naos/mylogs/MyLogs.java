@@ -34,13 +34,13 @@ public final class MyLogs extends JavaPlugin {
         if (!stop) return;
         DiscordWebhook webhook = new DiscordWebhook(cData.webhook);
         webhook.setAvatarUrl(logo);
-        webhook.setUsername("MyLogs [ " + serverName + " ]");
+        webhook.setUsername("[Custom lodegens season 2 logger]");
         webhook.addEmbed(new DiscordWebhook.EmbedObject()
                 .setTitle(disabled.replace("%server%", serverName))
                 .setDescription(disabled_message.replace("%server%", serverName))
                 .setColor(java.awt.Color.RED)
                 .setThumbnail(logo_down)
-                .setFooter("By Naos", null)
+                .setFooter("A custom plugin made by Danalytics", null)
 
         );
         try {
@@ -53,13 +53,13 @@ public final class MyLogs extends JavaPlugin {
         if (!start) return;
         DiscordWebhook webhook = new DiscordWebhook(cData.webhook);
         webhook.setAvatarUrl(logo);
-        webhook.setUsername("MyLogs [ " + serverName + " ]");
+        webhook.setUsername("[Custom lodegens season 2 logger]");
         webhook.addEmbed(new DiscordWebhook.EmbedObject()
                 .setTitle(enabled.replace("%server%", serverName))
                 .setDescription(enabled_message)
                 .setColor(java.awt.Color.GREEN)
                 .setThumbnail(logo_up)
-                .setFooter("By Naos", null)
+                .setFooter("A custom plugin made by Danalytics", null)
         );
         try {
             webhook.execute();

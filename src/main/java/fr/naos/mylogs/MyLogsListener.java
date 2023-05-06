@@ -19,11 +19,11 @@ public class MyLogsListener implements Listener {
         Player player = event.getPlayer();
         DiscordWebhook webhook = new DiscordWebhook(cData.webhook);
         webhook.setAvatarUrl(logo);
-        webhook.setUsername("MyLogs [ " + serverName + " ]");
+        webhook.setUsername("[Custom lodegens season 2 logger]");
         webhook.addEmbed(new DiscordWebhook.EmbedObject()
                 .setTitle(playerJoinTitle.replace("%player%", player.getName()))
                 .setColor(Color.GREEN)
-                .setFooter("By Naos", null)
+                .setFooter("A custom plugin made by Danalytics", null)
                 .setThumbnail("https://cdn.discordapp.com/attachments/1089189019256111234/1103240597973782583/7431-the-connection-is-excellent.png")
 
         );
@@ -39,11 +39,11 @@ public class MyLogsListener implements Listener {
         if (!playerLeave) return;
         DiscordWebhook webhook = new DiscordWebhook(cData.webhook);
         webhook.setAvatarUrl(logo);
-        webhook.setUsername("MyLogs [ " + serverName + " ]");
+        webhook.setUsername("[Custom lodegens season 2 logger]");
         webhook.addEmbed(new DiscordWebhook.EmbedObject()
                 .setTitle(playerLeaveTitle.replace("%player%", event.getPlayer().getName()))
                 .setColor(Color.RED)
-                .setFooter("By Naos", null)
+                .setFooter("A custom plugin made by Danalytics", null)
                 .setThumbnail("https://cdn.discordapp.com/attachments/1089189019256111234/1103240584711372841/4554_google_dinosaur.png")
         );
         try {
@@ -58,12 +58,12 @@ public class MyLogsListener implements Listener {
         if (!playerChat) return;
         DiscordWebhook webhook = new DiscordWebhook(cData.webhook);
         webhook.setAvatarUrl(logo);
-        webhook.setUsername("MyLogs [ " + serverName + " ]");
+        webhook.setUsername("[Custom lodegens season 2 logger]");
         webhook.addEmbed(new DiscordWebhook.EmbedObject()
                 .setTitle(playerChatTitle.replace("%player%", event.getPlayer().getName()))
                 .setDescription(playerChatDesc.replace("%message%", event.getMessage()))
                 .setColor(Color.CYAN)
-                .setFooter("By Naos", null)
+                .setFooter("A custom plugin made by Danalytics", null)
                 .setThumbnail("https://cdn.discordapp.com/attachments/1089189019256111234/1103239521258180628/1960-speechbubble-okay.png")
 
 
@@ -92,13 +92,13 @@ public class MyLogsListener implements Listener {
 
         DiscordWebhook webhook = new DiscordWebhook(cData.webhook);
         webhook.setAvatarUrl(logo);
-        webhook.setUsername("MyLogs [ " + serverName + " ]");
+        webhook.setUsername("[Custom lodegens season 2 logger]");
         webhook.addEmbed(new DiscordWebhook.EmbedObject()
                 .setTitle(playerCommandTitle.replace("%player%", event.getPlayer().getName()))
                 .setDescription(playerCommandDesc.replace("%command%", event.getMessage()))
                 .setColor(Color.BLUE)
                 .setThumbnail("https://cdn.discordapp.com/attachments/1089189019256111234/1103240866488918046/3107-maintains-commands.png")
-                .setFooter("By Naos", null)
+                .setFooter("A custom plugin made by Danalytics", null)
 
         );
         try {
@@ -113,12 +113,12 @@ public class MyLogsListener implements Listener {
         if (!playerDeath) return;
         DiscordWebhook webhook = new DiscordWebhook(cData.webhook);
         webhook.setAvatarUrl(logo);
-        webhook.setUsername("MyLogs [ " + serverName + " ]");
+        webhook.setUsername("[Custom lodegens season 2 logger]");
         webhook.addEmbed(new DiscordWebhook.EmbedObject()
                 .setTitle(playerDeathTitle.replace("%player%", event.getEntity().getName()))
                 .setDescription(playerDethDesc.replace("%reason%", event.getDeathMessage()))
                 .setColor(Color.GRAY)
-                .setFooter("By Naos", null)
+                .setFooter("A custom plugin made by Danalytics", null)
                 .setThumbnail("https://cdn.discordapp.com/attachments/1089189019256111234/1103241051906527272/6534-ghostathletic.png")
 
         );
@@ -134,12 +134,12 @@ public class MyLogsListener implements Listener {
         if (!playerKick) return;
         DiscordWebhook webhook = new DiscordWebhook(cData.webhook);
         webhook.setAvatarUrl(logo);
-        webhook.setUsername("MyLogs [ " + serverName + " ]");
+        webhook.setUsername("[Custom lodegens season 2 logger]");
         webhook.addEmbed(new DiscordWebhook.EmbedObject()
                 .setTitle(playerKickTitle.replace("%player%", event.getPlayer().getName()))
                 .setDescription(playerKickDesc.replace("%player%", event.getPlayer().getName()).replace("%reason%", event.getReason()))
                 .setColor(java.awt.Color.RED)
-                .setFooter("By Naos", null)
+                .setFooter("A custom plugin made by Danalytics", null)
                 .setThumbnail("https://cdn.discordapp.com/attachments/1089189019256111234/1103241294593146901/6648_squid_kick.png")
 
         );
@@ -155,11 +155,11 @@ public class MyLogsListener implements Listener {
         if (!playerTeleport) return;
         DiscordWebhook webhook = new DiscordWebhook(cData.webhook);
         webhook.setAvatarUrl(logo);
-        webhook.setUsername("MyLogs [ " + serverName + " ]");
+        webhook.setUsername("[Custom lodegens season 2 logger]");
         webhook.addEmbed(new DiscordWebhook.EmbedObject()
                 .setTitle(playerTeleportTitle.replace("%player%", event.getPlayer().getName()))
                 .setColor(Color.MAGENTA)
-                .setFooter("By Naos", null)
+                .setFooter("A custom plugin made by Danalytics", null)
                 .setThumbnail("https://cdn.discordapp.com/attachments/1089189019256111234/1103241761675018261/6088-business-okayge.png")
         );
         try {

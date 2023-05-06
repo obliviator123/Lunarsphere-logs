@@ -64,10 +64,10 @@ public class cData {
 
         if (lang.equalsIgnoreCase("fr")) {
             reload = prefix + "§aConfiguration rechargée !";
-            help = prefix + "§fPage d'Aide :\n§7- §b/mylogs §ehelp §7- §fAffiche cette page\n§7- §b/mylogs §ereload §7- §fRecharger le plugin";
-            enabled = "<:MyLogs:1089197501292232785> Le serveur %server% est allumé !";
+            help = prefix + "§fPage d'Aide :\n§7- §b/lunarsphere-logs §ehelp §7- §fAffiche cette page\n§7- §b/lunarsphere-logs §ereload §7- §fRecharger le plugin";
+            enabled = "<:lunarsphere-logs:1089197501292232785> Le serveur %server% est allumé !";
             enabled_message = "Vous recevrez toutes les logs dans ce salon !";
-            disabled = "<:MyLogs:1089197501292232785> Le serveur %server% s'est éteint !";
+            disabled = "<:lunarsphere-logs:1089197501292232785> Le serveur %server% s'est éteint !";
             disabled_message = "Vous ne recevrez plus d'information sur le serveur %server% !";
             playerJoinTitle = "%player% a rejoint le serveur !";
             playerJoinDesc = "Il a rejoint via l'ip %ip% !";
@@ -83,9 +83,9 @@ public class cData {
             playerTeleportTitle = "%player% s'est téléporté !";
         } else {
             reload = prefix + "§aConfiguration reloaded !";
-            help = prefix + "§fHelp page :\n§7- §b/mylogs §ehelp §7- §fShow this page\n§7- §b/mylogs §ereload §7- §fReload the plugin";
-            enabled = "<:MyLogs:1089197501292232785> The server %server% is enabled !";
-            disabled = "<:MyLogs:1089197501292232785> The server %server% is now off !";
+            help = prefix + "§fHelp page :\n§7- §b/lunarsphere-logs §ehelp §7- §fShow this page\n§7- §b/lunarsphere-logs §ereload §7- §fReload the plugin";
+            enabled = "<:Lunarsphere-logs:1089197501292232785> The server %server% is enabled !";
+            disabled = "<:Lunarsphere-logs:1089197501292232785> The server %server% is now off !";
             enabled_message = "You will recieve all logs in this channel";
             disabled_message = "You won't recieve any information about %server% !";
             playerJoinTitle = "%player% has joined the server !";
